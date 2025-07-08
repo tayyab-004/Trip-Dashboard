@@ -1,0 +1,45 @@
+{
+  "name": "trip-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "react-router build",
+    "dev": "set NODE_OPTIONS=--import ./instrument.server.mjs && react-router dev",
+    "start": "set NODE_OPTIONS=--import ./instrument.server.mjs && react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@react-router/node": "^7.5.3",
+    "@react-router/serve": "^7.5.3",
+    "@sentry/profiling-node": "^9.35.0",
+    "@sentry/react-router": "^9.35.0",
+    "@syncfusion/ej2-base": "^30.1.38",
+    "@syncfusion/ej2-react-buttons": "^30.1.37",
+    "@syncfusion/ej2-react-charts": "^30.1.37",
+    "@syncfusion/ej2-react-dropdowns": "^30.1.37",
+    "@syncfusion/ej2-react-grids": "^30.1.38",
+    "@syncfusion/ej2-react-maps": "^30.1.37",
+    "@syncfusion/ej2-react-navigations": "^30.1.37",
+    "@syncfusion/ej2-react-splitbuttons": "^30.1.37",
+    "appwrite": "^18.1.1",
+    "clsx": "^2.1.1",
+    "dayjs": "^1.11.13",
+    "isbot": "^5.1.27",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^7.5.3",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^7.5.3",
+    "@tailwindcss/vite": "^4.1.4",
+    "@types/node": "^20",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "tailwindcss": "^4.1.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
