@@ -48,7 +48,7 @@ From booking trips to tracking analytics, this project is designed to enhance us
 ### 📥 Clone the Repository
 
 ```
-git clone https://github.com/tayyb004/Trip-Dashboard.git
+git clone https://github.com/tayyab-004/Trip-Dashboard.git
 ```
 
 ```
